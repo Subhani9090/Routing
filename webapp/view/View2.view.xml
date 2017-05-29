@@ -1,0 +1,13 @@
+<mvc:View controllerName="routing.controller.View2" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Text xmlns="sap.m" text="I am in Page-2"></Text>
+					<Button text="To the first Page" press="onBack"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
